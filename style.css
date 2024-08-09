@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: 7%;
+    width: 100%;
+    background-color: #FFE9CA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerh1{
+    margin-left: 3%;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.headerh1 .co{
+     color: #FF6A00;    
+}
+
+.headerh1 .span2{
+    color: #FF6A00;
+}
+
+.headerh1 .span3{
+    font-weight: 100;
+    font-size: 26px;
+}
+
+.headerp1{
+    margin-left: -19%;
+    padding-top: .5%;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+header button{
+    background-color: #FF6A00;
+    color: whitesmoke;
+    margin-right: 2%;
+    font-size: 15px;
+    height: 28px;
+    padding: 5px;
+    width: 11%;
+    border-radius: 20px;
+    border: none;
+}
+
+.header2{
+    width: 100%;
+    height: 15%;
+    background: rgb(22,22,22);
+background: linear-gradient(0deg, rgba(22,22,22,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.header2h1 img{
+    width: 17%;
+    height: 10%;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    
+}
+
+.header2item2{
+    margin-left: 73%;
+    font-weight: lighter;
+    margin-top: -3%;
+    color: white;
+    line-height: 20px;
+}
+
+.header2item2 img{
+    height: 10%;
+    width: 6%;
+}
+
+.globe{
+    margin-left: 80%;
+    margin-top: -2.6%;
+    font-size: 20px;
+}
+
+.man{
+    margin-left: 85%;
+    margin-top: -1.8%;
+    font-size: 20px;
+}
+
+.header2 button{
+    margin-left: 88%;
+    background-color: #FF6A00;
+    color: white;
+    width: 10%;
+    height: 35px;
+    border-radius: 20px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar i{
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.sideleft , .sideright{
+    display: flex;
+    margin-top: -1%;
+    color: white;
+    margin-left: 3%;
+}
+
+.sideright ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 5px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding-left: 16px;
+    font-size: 15px;
+}
+
+.centercontent{
+    background-image: url("https://s.alicdn.com/@img/imgextra/i4/O1CN01ustqhi1Tz44lu4arh_!!6000000002452-0-tps-3840-1248.jpg_q60.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
